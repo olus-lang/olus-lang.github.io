@@ -16,7 +16,7 @@
 title: The Oluś language
 email: remco@wicked.ventures
 description: >- # this means to ignore newlines until "baseurl:"
-  Oluś is the first continuation passing style programming language. It is pure, minimalist, eager and call-by-value. All calls are tail calls. There is no stack. The only data structure is a closure. Currently it is untyped.
+  Oluś is the first continuation passing style programming language. It is pure, minimalist, eager and call-by-value. All calls are tail calls, there is no stack. The only data structure is a closure. Currently it is untyped.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://olus.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: recmo
