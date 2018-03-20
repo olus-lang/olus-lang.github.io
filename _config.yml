@@ -23,10 +23,20 @@ twitter_username: recmo
 github_username:  olus-lang
 
 # Build settings
-markdown: kramdown
+markdown: Pandoc
 theme: minima
 plugins:
+  - jekyll-pandoc
   - jekyll-feed
+
+pandoc:
+  extensions:
+    - normalize
+    - smart
+    - mathjax
+    - csl: _styles/apa.csl
+    - bibliography: bibliography/references.bib
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

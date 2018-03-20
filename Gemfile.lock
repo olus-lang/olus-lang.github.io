@@ -119,6 +119,9 @@ GEM
     jekyll-optional-front-matter (0.3.0)
       jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
+    jekyll-pandoc (2.0.1)
+      jekyll (>= 3.0)
+      pandoc-ruby (~> 2.0, >= 2.0.0)
     jekyll-readme-index (0.2.0)
       jekyll (~> 3.0)
     jekyll-redirect-from (0.12.1)
@@ -201,6 +204,7 @@ GEM
       mini_portile2 (~> 2.3.0)
     octokit (4.8.0)
       sawyer (~> 0.8.0, >= 0.5.3)
+    pandoc-ruby (2.0.2)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -235,6 +239,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
+  jekyll-pandoc
   minima (~> 2.0)
   tzinfo-data
 
