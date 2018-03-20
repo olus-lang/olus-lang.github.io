@@ -1,0 +1,35 @@
+---
+---
+
+@import "minima";
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:500,700|Source+Sans+Pro:300,400|Source+Serif+Pro:400,700&subset=greek,latin-ext');
+
+body {
+    color: rgba(0,0,0,0.84);
+    font-feature-settings: 'liga';
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    letter-spacing: -0.003em;
+    line-height: 1.58;
+    font-size: 21px;
+}
+
+article, .wrapper {
+    max-width: 740px;
+    font-family: 'Source Serif Pro', Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+pre, code {
+    font-family: 'Source Code Pro', Menlo, Monaco, "Courier New", Courier, monospace;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.3;
+}
