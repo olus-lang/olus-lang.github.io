@@ -28,14 +28,24 @@ theme: minima
 plugins:
   - jekyll-pandoc
   - jekyll-feed
+  - jekyll-default-layout
 
 pandoc:
   extensions:
-    - normalize
-    - smart
     - mathjax
-    - csl: _styles/apa.csl
-    - bibliography: bibliography/references.bib
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 
 # Exclude from processing.
